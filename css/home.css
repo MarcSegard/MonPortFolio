@@ -1,0 +1,42 @@
+.cards {
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin-top:20px;
+}
+
+.card:hover{
+    /* transform: scale(1.2); */
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+    backface-visibility: hidden;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin:10px;
+}
+
+.card-image{
+    width: 400px;
+    height: 220px;
+}
+
+
+.card-description {
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+    font-style: italic;
+    color: rgb(215, 207, 207);
+
+}
+

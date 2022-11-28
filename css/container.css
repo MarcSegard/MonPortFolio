@@ -1,0 +1,8 @@
+.container {
+    width: 100vw;
+    height:700px;
+    grid-row: 2;
+    margin: auto;
+    background: radial-gradient(rgb(149, 146, 146),black);
+    color:white;
+}
